@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Mode DND">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/reload"
+            app:key="do_not_disturb"
+            app:title="Do Not Disturb" />
+        <Preference
+            app:key="start_time"
+            app:summary="10:00"
+            app:icon="@drawable/stopwatch"
+            app:title="Start"/>
+        <Preference
+            app:key="end_time"
+            app:summary="06:00"
+            app:icon="@drawable/stopwatch_end"
+            app:title="End"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

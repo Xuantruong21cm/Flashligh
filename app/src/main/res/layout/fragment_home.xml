@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F1"
+    android:layout_height="wrap_content"
+    tools:context=".HomeFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:scaleType="fitXY"
+            android:src="@drawable/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:id="@+id/img_power"
+            android:layout_gravity="center"
+            android:src="@drawable/power_on"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/layout_Control"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <fragment
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.flashligh.StatusFragment"
+            android:id="@+id/fragment_status"/>
+        <fragment
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.flashligh.ModeFragment"
+            android:id="@+id/fragment_mode"/>
+        <fragment
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.flashligh.AdvancedFragment"
+            android:id="@+id/fragment_advanced"/>
+        <fragment
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:name="com.example.flashligh.SpeedFragment"
+            android:id="@+id/fragment_speed"/>
+
+        <fragment
+            android:id="@+id/fragment_dnd"
+            android:name="com.example.flashligh.DNDFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Status">
+
+        <SwitchPreferenceCompat
+            android:iconSpaceReserved="false"
+            app:iconSpaceReserved="false"
+            app:icon="@drawable/phone"
+            app:key="incoming_call"
+            app:title="Incoming Call" />
+
+        <SwitchPreferenceCompat
+            android:iconSpaceReserved="false"
+            app:iconSpaceReserved="false"
+            app:icon="@drawable/message"
+            app:key="incoming_message"
+            app:title="Incoming Message" />
+
+        <SwitchPreferenceCompat
+            android:iconSpaceReserved="false"
+            app:iconSpaceReserved="false"
+            app:icon="@drawable/notification"
+            app:key="notificaton"
+            android:summary="Notification for All Application"
+            app:title="All Notification" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

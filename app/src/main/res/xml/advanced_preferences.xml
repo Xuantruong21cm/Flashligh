@@ -1,0 +1,21 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Advanced">
+
+        <SwitchPreferenceCompat
+            app:icon="@drawable/smartphone"
+            app:key="screen_open"
+            app:summary="Don't open the Flash when the screen opening."
+            app:title="Screen Opening" />
+        <SeekBarPreference
+            app:key="batery_percent"
+            app:summary="Turn off the Flash when the battery percentage is below %"
+            app:title="Batery percent"
+            app:icon="@drawable/battery"
+            app:defaultValue="10"
+            app:showSeekBarValue="true"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

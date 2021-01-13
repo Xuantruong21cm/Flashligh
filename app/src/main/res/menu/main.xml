@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/vip"
+        android:id="@+id/action_vip"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/giftbox"
+        android:id="@+id/action_gift"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="ifRoom" />
+</menu>

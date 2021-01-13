@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_removeAds"
+            android:icon="@drawable/blockads"
+            android:title="Remove Ads" />
+        <item
+            android:id="@+id/nav_rateApp"
+            android:icon="@drawable/star"
+            android:title="Rate App" />
+        <item
+            android:id="@+id/nav_privacy_Policy"
+            android:icon="@drawable/info"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_our_Application"
+            android:icon="@drawable/google_play"
+            android:title="Our Application" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback" />
+    </group>
+</menu>

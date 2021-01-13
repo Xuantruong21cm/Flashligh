@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:title="Speed">
+
+        <SeekBarPreference
+            app:defaultValue="10"
+            app:iconSpaceReserved="false"
+            app:key="turn_on_time"
+            app:showSeekBarValue="true"
+            app:title="Turn On Time" />
+        <SeekBarPreference
+            app:defaultValue="10"
+            app:iconSpaceReserved="false"
+            app:key="turn_off_time"
+            app:showSeekBarValue="true"
+            app:title="Turn Off Time" />
+        <SeekBarPreference
+            app:defaultValue="3"
+            app:iconSpaceReserved="false"
+            app:key="turn_on_sms"
+            app:showSeekBarValue="true"
+            app:title="Turn on Flash when SMS is available (s)" />
+
+    </PreferenceCategory>
+</PreferenceScreen>
